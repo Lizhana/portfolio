@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Educacion from "../pages/Educacion";
-import Experiencia from "../pages/Experiencia";
+import Experiencia from "../pages/Experience";
 import Home from "../pages/Home";
-import Proyectos from "../pages/Proyecyos";
+import Proyectos from "../pages/Projects";
 import Skills from "../pages/Skills";
-import Sidebar from "../components/Sidebar";
+import More from "../pages/More";
+
 
 export function MyRoutes() {
   return (
@@ -16,6 +17,7 @@ export function MyRoutes() {
         <Route path="/experiencia" element={<Experiencia/>} />
         <Route path="/proyectos" element={<Proyectos/>} />
         <Route path="/skills" element={<Skills/>} />
+        <Route path="/algomas" element={<More/>}/>
       </Routes>
    
   );
