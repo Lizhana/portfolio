@@ -13,7 +13,7 @@ export const Sskills = [
         soft: 'Comunicación',
     },
     {
-        soft: 'Empatia',
+        soft: 'Empatía',
     },  
     {
         soft: 'Organización',

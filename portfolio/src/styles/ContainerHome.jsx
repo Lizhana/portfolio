@@ -44,6 +44,9 @@ color: ${(props) => props.theme.texto};
 
 }
 
+@media (max-width: 900px) {
+  flex-wrap: wrap;
+}
 
 
 

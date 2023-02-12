@@ -11,19 +11,27 @@ background-size: 100%;
 color: ${(props) => props.theme.texto};
 
 .ContainerPr{
+
+   
+
     padding: 1rem;
+
     .TitlePr{
     margin-left:40%;
     font-family: 'Zeyada', cursive;
     font-size: ${(props)=> props.theme.fontxxl};
-    }
+                }
 
 
     .DivContP{
         padding: 2px;
+       
         
 
         .ContentSec{
+            @media (max-width: 900px)  {
+                display: block;
+               }
             display: grid;
         grid-template-columns: 1.5fr 1fr;
         grid-gap: 1rem;
@@ -37,7 +45,7 @@ color: ${(props) => props.theme.texto};
                     -o-object-fit: cover;
                     object-fit: cover;
                 }
-
+                
             }
 
             .DivResPr{
@@ -78,6 +86,7 @@ color: ${(props) => props.theme.texto};
     }
 
 }
+
 
 
 

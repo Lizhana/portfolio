@@ -18,7 +18,10 @@ color: ${(props) => props.theme.texto};
     .TitleEd{
         margin-left:40%;
         font-family: 'Zeyada', cursive;
-    font-size: ${(props)=> props.theme.fontxxl}
+    font-size: ${(props)=> props.theme.fontxxl};
+    @media (max-width: 900px)  {
+       margin-left: 20%;
+       }
         }
         h2{
             font-family: 'Lora', serif;

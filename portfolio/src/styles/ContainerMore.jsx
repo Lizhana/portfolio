@@ -38,12 +38,12 @@ padding: 20px 10%;
             img{
                 border-radius: 10%;
             }
-        
+        }
+        @media (max-width: 900px)  {
+            display: block;
         }
     }
     
-@media (max-width: 900px) .ContainerMore {
-    flex-wrap: wrap;
-  }
+
 
 `;

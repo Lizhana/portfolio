@@ -11,6 +11,10 @@ background-size: 100%;
 color: ${(props) => props.theme.texto};
 
 .SkillsCont{
+  padding-top: 5%;
+  @media (max-width: 900px)  {
+    margin-left: 10%;
+   }
 
   .datesSk{
     

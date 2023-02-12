@@ -20,8 +20,9 @@ function More() {
         
             </div>
             <br />
+            <div className="Contactme" >
 <Contact/>
-
+</div >
         </Container>
     );
 } 
