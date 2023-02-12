@@ -4,8 +4,10 @@ export const Container = styled.div`
 
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 min-height: 100vh;
-background-image: url(${(props) => props.theme.bgtotal}) ;
+background-image: url(${(props) => props.theme.bgtotal});
 background-size: 100%;
 color: ${(props) => props.theme.texto};
 
@@ -19,9 +21,6 @@ color: ${(props) => props.theme.texto};
         margin-left:40%;
         font-family: 'Zeyada', cursive;
     font-size: ${(props)=> props.theme.fontxxl};
-    @media (max-width: 900px)  {
-       margin-left: 20%;
-       }
         }
         h2{
             font-family: 'Lora', serif;
