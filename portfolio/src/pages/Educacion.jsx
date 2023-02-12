@@ -1,4 +1,4 @@
-import { Container} from '../styles/ContainerHome'
+import { Container} from '../styles/ContainerEd'
 import {BiCode, BiCodeAlt} from 'react-icons/bi'
 import {VscLaw} from 'react-icons/vsc'
 import {ImHammer2} from 'react-icons/im'
