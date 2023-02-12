@@ -6,7 +6,8 @@ import React, { useState } from "react";
 
 
 function Home() {
-   const [sidebarOpen, setSidebarOpen] = useState(false)
+
+   
    return ( 
       <Container >
          <div className="containerHome" >

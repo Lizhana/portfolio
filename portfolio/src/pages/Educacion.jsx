@@ -1,6 +1,4 @@
-import {Container} from '../styles/ContainerEd'
-import logo from '../assets/logo-h.png'
-import logoc from '../assets/logo-c.png'
+import { Container} from '../styles/ContainerHome'
 import {BiCode, BiCodeAlt} from 'react-icons/bi'
 import {VscLaw} from 'react-icons/vsc'
 import {ImHammer2} from 'react-icons/im'
@@ -31,8 +29,6 @@ function Educacion() {
         <p>Talleres de: Derechos de las minorías, Derechos sexuales, Teorías y ramas del Feminismo. </p>
     </div>
     </div>
-  
-      
     </div>
     </Container>
   );
