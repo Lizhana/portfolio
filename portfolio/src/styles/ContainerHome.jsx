@@ -15,7 +15,7 @@ color: ${(props) => props.theme.texto};
         display: flex;
     .dates{
         padding:0.5rem;
-        margin-top: 6rem; 
+        margin-top: 4rem; 
     .TitleH{
     font-family: 'Zeyada', cursive;
     font-size: ${(props)=> props.theme.fontxxxl};
