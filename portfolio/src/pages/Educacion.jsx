@@ -1,4 +1,4 @@
-import { Container} from '../styles/ContainerEx'
+import { Container} from '../styles/ContainerHome'
 import {BiCode, BiCodeAlt} from 'react-icons/bi'
 import {VscLaw} from 'react-icons/vsc'
 import {ImHammer2} from 'react-icons/im'
@@ -8,10 +8,10 @@ function Educacion() {
   return (
     <Container >
      
-    <div className='ContainerEx' >  
-    <h1 className='TitleEx' >Educacion</h1> 
-    <div className='datesEx' > 
-           
+    <div className='ContainerHome' >  
+    
+    <div className='dates' > 
+           <h1 className='TitleH' >Educacion</h1> 
        <h2 className='TitleE3'>Full Stack Web Developer</h2> < BiCode /><BiCodeAlt />
         <h4>Henry</h4>
                 <p>Sep 2022 - Feb 2023</p>

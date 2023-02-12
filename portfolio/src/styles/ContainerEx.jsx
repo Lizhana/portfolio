@@ -8,7 +8,7 @@ export const Container = styled.div`
 min-height: 100vh;
 background-image: url(${(props)=>props.theme.bgtotal}) ;
 background-size: 100%;
-color: ${(props) => props.theme.texto} ;
+color: ${(props) => props.theme.texto};
 
 .ContainerEx{
     padding-top: 0.8rem;
