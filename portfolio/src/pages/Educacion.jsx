@@ -1,4 +1,4 @@
-import { Container} from '../styles/ContainerEd'
+import { Container} from '../styles/ContainerEx'
 import {BiCode, BiCodeAlt} from 'react-icons/bi'
 import {VscLaw} from 'react-icons/vsc'
 import {ImHammer2} from 'react-icons/im'
@@ -8,14 +8,14 @@ function Educacion() {
   return (
     <Container >
      
-    <div className='ContainerEd' >  
-    <h1 className='TitleEd' >Educacion</h1> 
-    <div className='datesEd' > 
+    <div className='ContainerEx' >  
+    <h1 className='TitleEx' >Educacion</h1> 
+    <div className='datesEx' > 
            
        <h2 className='TitleE3'>Full Stack Web Developer</h2> < BiCode /><BiCodeAlt />
         <h4>Henry</h4>
                 <p>Sep 2022 - Feb 2023</p>
-          <div className='DivSubEd' >
+          <div className='DivSubEx' >
         <p>Etapa Bootcamp- consistió en entrenamiento intensivo de +800 h, donde nos enseñaron las más relevantes tecnologías y el lenguaje JavaScript. </p>
         <p>Etapa Labs- Realización en equipo de proyectos del mundo real con metodologías y herramientas ágiles (scrum), bajo un aprendizaje colaborativo.</p>
         </div>
