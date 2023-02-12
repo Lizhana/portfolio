@@ -11,7 +11,7 @@ background-size: 100%;
 color: ${(props) => props.theme.texto} ;
 
 .ContainerEx{
-    
+    padding-top: 0.8rem;
     .TitleEx{
         margin-left:35%;
         font-family: 'Zeyada', cursive;
@@ -26,7 +26,7 @@ color: ${(props) => props.theme.texto} ;
         .TitleE3{
             font-family: 'Lora', serif;
 
-            font-size: ${(props)=> props.theme.fontlg};
+            font-size: ${(props)=> props.theme.fontxl};
         }
 
         .SpanE{
