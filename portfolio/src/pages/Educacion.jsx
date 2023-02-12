@@ -8,14 +8,14 @@ function Educacion() {
   return (
     <Container >
      
-    <div className='ContainerHome' >  
-    
-    <div className='dates' > 
-           <h1 className='TitleH' >Educacion</h1> 
+    <div className='ContainerEd' >  
+    <h1 className='TitleEd' >Educacion</h1> 
+    <div className='datesEd' > 
+           
        <h2 className='TitleE3'>Full Stack Web Developer</h2> < BiCode /><BiCodeAlt />
         <h4>Henry</h4>
                 <p>Sep 2022 - Feb 2023</p>
-          <div className='DivSubEx' >
+          <div className='DivSubEd' >
         <p>Etapa Bootcamp- consistió en entrenamiento intensivo de +800 h, donde nos enseñaron las más relevantes tecnologías y el lenguaje JavaScript. </p>
         <p>Etapa Labs- Realización en equipo de proyectos del mundo real con metodologías y herramientas ágiles (scrum), bajo un aprendizaje colaborativo.</p>
         </div>
