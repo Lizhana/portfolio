@@ -51,7 +51,6 @@ function Sidebar({ setSidebarOpen, sidebarOpen }) {
             {sidebarOpen && <span className="a">Curriculum</span>}
           </a>
         </div>
-      <br />
       <div className="ThemeContent">
         <div className="ToggleContent">
           <div className="grid theme-container">

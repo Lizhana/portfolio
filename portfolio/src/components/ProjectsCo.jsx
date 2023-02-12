@@ -17,7 +17,7 @@ export const ProjectsConst = [
         name: 'Sleep Tacker',
         techs: [
             {
-                tech: <TbBrandJavascript color="#01DCFF" />
+                tech: <TbBrandJavascript color="#F7DF1E" />
             },
             {
                 
@@ -41,36 +41,36 @@ export const ProjectsConst = [
             },
             {
                 
-                tech: <SiMaterialui />,
+                tech: <SiMaterialui color="#336791" />,
             },
             {
                 
-                tech: <DiScrum />,
-            },
-            {
-                
-                tech: <div className='Expres' >Expres Js</div>,
+                tech: <DiScrum color="orange" />,
             },
             {
                 
                 tech: <BiBarChart
-                color="#01DCFF" />,
+                />,
             },
             {
                 
-                tech: <SiPostgresql />
+                tech: <SiPostgresql color="#01DCFF"/>
             },
             {
                 
-                tech: <SiSocketdotio color="#01DCFF" />,
+                tech: <SiSocketdotio  />,
             },
             {
                 
                 tech: <SiSequelize color="#01DCFF" />,
             },
             
+            {
+                
+                tech: <span className='Expres' >Expres Js</span>,
+            },
         ] ,
-        resume:'Sleep Tracker es una aplicación web que se conecta a tu reloj inteligente FitBit, el objetivo principal es ayudarte a mejor tu sueño y descanso, para eso te muestra de forma amigable los datos obtenidos respecto al sueño, tiempo y eficiencia, esto mediante gráficas claras y exactas las cuales también puedes descargar en formato PDF, además, te permite llevar un registro puntual de los cuatro aspectos diarios que más influyen en un buen descanso; la hora y tipo de merienda, el consumo de café, el consumo de alcohol y el ejercicio realizado, y muestra gráficas para que puedas comparar como influyen estos con respecto a tu descanso, así mismo cuenta con tips para dormir mejor, una calculadora que conforme a tu edad te indica el tiempo que debes dormir, el tiempo estimado de ejercicio que debes realizar y te proporciona algunas sugerencias de actividades, todo esto avalado por la OMS, Sleep tracker te permite tener un perfil y poder editarlo, la aplicación cuenta con tres tipos de planes, entre ellos el paquete premium que además de los beneficios antes descritos brinda acceso a una sala de chat donde podrán compartir sugerencias, experiencias, etc.',
+        resume:'Aplicación web que se conecta a tu reloj inteligente FitBit, el objetivo principal es ayudarte a mejor tu sueño y descanso, para eso te muestra de forma amigable los datos obtenidos respecto al sueño, mediante gráficas claras y exactas las cuales también puedes descargar en formato PDF, además, te permite llevar un registro puntual de los cuatro aspectos diarios que más influyen en un buen descanso; y muestra gráficas para que puedas comparar como influyen estos con respecto a tu descanso, así mismo cuenta con tips para dormir mejor, una calculadora que conforme a tu edad te muestra indicaciones,  todo esto avalado por la OMS, Sleep tracker te permite tener un perfil y poder editarlo, la aplicación cuenta con tres tipos de planes, entre ellos el paquete premium que además de los beneficios antes descritos brinda acceso a una sala de chat donde podrán compartir sugerencias, experiencias, etc.',
         git: 'https://github.com/Lizhana/sleep-tracker1',
         deploy: 'https://sleep-tracker-two.vercel.app/',
         video: videoS,
@@ -80,7 +80,7 @@ export const ProjectsConst = [
         name: 'Proyecto Integral Video Games',
         techs: [
             {
-                tech: <TbBrandJavascript color="#01DCFF" />
+                tech: <TbBrandJavascript color="#F7DF1E" />
             },
             {
                 
@@ -93,18 +93,18 @@ export const ProjectsConst = [
                 
                 tech: <SiRedux color="#764ABC" />,
             },
+            
             {
                 
-                tech: 'Express Js',
-            },
-
-            {
-                
-                tech: <SiPostgresql />
+                tech: <SiPostgresql color="#01DCFF" />
             },
             {
                 
                 tech: <SiSequelize color="#01DCFF" />,
+            },
+            {
+                
+                tech: 'Express Js',
             },
             
         ] ,
@@ -118,13 +118,13 @@ export const ProjectsConst = [
         name: 'App- Clima',
         techs: [
             {
-                tech: <TbBrandJavascript color="#01DCFF" />
+                tech: <TbBrandJavascript color="#F7DF1E" />
             },           
             {
                 tech: <IoLogoCss3 color="#264DE4" />
             },
             {
-                tech: <IoLogoHtml5  />
+                tech: <IoLogoHtml5 color='orange' />
             },
             {
                 

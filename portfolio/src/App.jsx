@@ -12,7 +12,7 @@ function App() {
   const [theme, setTheme] = useState("light");
   const themeStyle = theme === "light" ? Light : Dark;
 
-  const [sidebarOpen, setSidebarOpen] = useState(true)
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
     <>
@@ -32,13 +32,13 @@ function App() {
   );
 }
 const Container = styled.div`
-
   display: grid;
   grid-template-columns: 90px auto;
   background: ${({theme})=>theme.bgtotal};
   transition: all 0.4s;
+  
   &.active {
-    grid-template-columns: 300px auto;
+    grid-template-columns: 200px auto;
   }
 `;
 

@@ -1,5 +1,6 @@
+
 export const v = {
-sidebarWidth: '300px',
+sidebarWidth: '200px',
 sidebarWidthInitial: '10vw',
 smSpacing: '8px',
 mdSpacing: '16px',

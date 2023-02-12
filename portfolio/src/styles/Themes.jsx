@@ -1,4 +1,9 @@
+import pink from '../assets/fondo-rosa.png'
+import colors from '../assets/fondo-colores.gif'
+import black from '../assets/fondo-negro.gif'
+
 export const Light = {
+    bgtotal: colors,
     body:  '#faeee7', //
     text: '#33272a',
     bodyRgba: '255, 255, 255',
@@ -14,14 +19,14 @@ export const Light = {
     fontButton:'0.875em',
     navHeight:'5rem',
     whiteBg:'#7250FF',
-    bg:'#ffdae4',
+    bg:'#ce93d8',
     bgAlpha: 'rgb(250,250,250)',
     bg2:'rgb(245,245,245)',
     bg3:'rgb(230,230,230)',
     texto:'rgb(45,45,45)',
     primary:'rgb(52, 131,235)',
     bg4:'#9247FC',
-    bgtotal:'#ffe9ff',
+    // bgtotal:'#ffe9ff',
     bgtgderecha:'#fff',
     barrascroll:'#a87a7',
     gray900:'#000000',
@@ -44,6 +49,7 @@ export const Light = {
 }
 
 export const Dark = {
+    bgtotal: black,
     bgtgderecha:'#212528',
     body:  '#202020',
     text: '#fff',
@@ -67,7 +73,6 @@ export const Dark = {
     texto:'rgb(210,210,210)',
     primary:'rgb(52, 131,235)',
     bg4:'#9247FC',
-    bgtotal:'#212528',
     barrascroll:'#A18AFF',
     gray900:'#000000',
     gray800:'#1f1f1f',

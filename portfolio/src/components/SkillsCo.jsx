@@ -1,8 +1,8 @@
 import { GrReactjs } from 'react-icons/gr';
 import { IoLogoNodejs, IoLogoCss3, IoLogoGithub, IoLogoHtml5 } from 'react-icons/io';
-import { SiRedux, SiSequelize, SiPostgresql } from 'react-icons/si'
+import { SiRedux, SiSequelize, SiPostgresql, SiJavascript } from 'react-icons/si'
 import {DiScrum} from 'react-icons/di'
-import {TbBrandJavascript} from 'react-icons/tb'
+
 
 ///----->> Soft skills Array
 export const Sskills = [
@@ -10,7 +10,7 @@ export const Sskills = [
         soft: 'Adaptabilidad',
     }, 
     {
-        blanda: 'Comunicación',
+        soft: 'Comunicación',
     },
     {
         soft: 'Empatia',
@@ -30,7 +30,7 @@ export const Sskills = [
 
 export const Tskills = [
     {
-        tech: <TbBrandJavascript color="#F7DF1E" />
+        tech: <SiJavascript color="#F7DF1E" />, 
     },
     {
         tech: <GrReactjs color="#01DCFF" />,
@@ -57,7 +57,7 @@ export const Tskills = [
         tech: <SiPostgresql color="#336791" />,
     },
     {
-        tech: <IoLogoGithub color='#000000' />,
+        tech: <IoLogoGithub  />,
     },
     {
         tech: 'ExpresJs',

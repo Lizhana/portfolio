@@ -6,26 +6,34 @@ function Proyectos() {
 
     return ( 
         <Container>
-        <h1>Proyectos</h1>
+            <div className="ContainerPr" >               
+        <h1 className="TitlePr" >Proyectos</h1>
 
         {ProjectsConst.map(({name, techs, resume, git, deploy, video})=>(
-            <div key={video} >
-                <h3>{name}</h3>
+            <div className="DivContP"  key={video} >
+
+                <div className='ContentSec' >
+                    <div className="VideoPr">
+                <video src={video } width='300px' controls className='VideoT' ></video>
+                <a href={git}  >{git}</a>
+                <a href={deploy}  >{deploy}</a>
+
                 {
                     techs.map(({tech}, index)=>(
-                        <div key={index} >{tech}</div>
+                        <span key={index} className='TechPro' >{tech}</span>
                     ))
                 }
-                <div>{resume}</div>
-                <p>{git}</p>
-
-                <p>{deploy}</p>
-                <div>
-                <video src={video + '#t=1'} width='300px' controls ></video>
                 </div>
+                <div className="DivResPr" >
+                <h3>{name}</h3>
+                <p>{resume}</p> 
+                
+                </div>
+                </div>  
             </div>
         ))}
 
+</div>
         </Container>
     );
 }

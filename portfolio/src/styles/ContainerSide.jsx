@@ -1,11 +1,14 @@
 import { v } from "./variables";
 import styled from "styled-components";
 
+
 export const Container = styled.div`
+
 color: ${(props) => props.theme.texto};
 background: ${(props) => props.theme.bg};
 position: sticky;
-padding-top: 20px;
+padding-top: 10%;
+
 
 .SidebarButton {
   position: absolute;
@@ -31,14 +34,15 @@ padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: ${v.lgSpacing};
+  padding-bottom: ${v.xlSpacing};
+
 
   .imgcontent {
     display: flex;
+    margin-top: 5%;
     img {
       max-width: 100%;
       height: auto;
-      margin: 2px;
     }
   transition: all 0.3s;
   transform: ${({ isOpen }) => (isOpen ? `scale(1)` : `scale(1.5)`)};
@@ -115,6 +119,7 @@ padding-top: 20px;
 }
 
 .ThemeContent{
+  margin-top:30px;
   display: flex;
   align-items:center;
   justify-content: space-between;
@@ -203,4 +208,11 @@ padding-top: 20px;
     }
   }
 }
+
+
+
+@media (max-width: 900px) {
+
+}
+
 `;
