@@ -8,7 +8,7 @@ import {ImHammer2} from 'react-icons/im'
 
 function Educacion() {
   return (
-    <Container>
+    <Container >
      
     <div className='ContainerEd' >  
     <div className='datesEd' > 

@@ -6,16 +6,16 @@ export const Container = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 min-height: 100vh;
-background-image: url(${(props) => props.theme.bgtotal});
+background-image: url(${(props)=>props.theme.bgtotal}) ;
 background-size: 100%;
-color: ${(props) => props.theme.texto};
+color: ${(props) => props.theme.texto} ;
 
 .ContainerEx{
     
     .TitleEx{
         margin-left:35%;
         font-family: 'Zeyada', cursive;
-    font-size: ${(props)=> props.theme.fontxxl};
+        font-size: ${(props)=> props.theme.fontxxl};
     }
     .datesEx{
         padding-top: 0.5rem;
@@ -41,7 +41,7 @@ color: ${(props) => props.theme.texto};
             border: 1px solid #ca1948;
             
             p{
-                font-size: ${(props)=> props.theme.fontxs};
+                font-size: ${(props)=> props.theme.fontsm};
                 text-align: justify;
             }
         }

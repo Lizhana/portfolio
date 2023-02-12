@@ -13,9 +13,9 @@ export function MyRoutes() {
       
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/educacion" element={<Educacion/>} />
-        <Route path="/experiencia" element={<Experiencia/>} />
-        <Route path="/proyectos" element={<Proyectos/>} />
+        <Route path="/educacion" element={<Educacion />} />
+        <Route path="/experiencia" element={<Experiencia />} />
+        <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/algomas" element={<More/>}/>
       </Routes>
